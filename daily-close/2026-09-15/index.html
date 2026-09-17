@@ -12,7 +12,7 @@ article h2{margin-top:42px}article h3{margin-top:28px}.table-wrap{overflow-x:aut
 <tr><td>每日族群輪動分析-2609</td><td>已取得</td><td>完整讀回 9/15 早盤、約 10:33、12:15、收盤分析；包含候選失效、相對強勢與分類差異。</td></tr>
 <tr><td>投資癮每日更新2609</td><td>已取得同步全文</td><td>最新一輪跨任務讀取未帶回正文，改由既有 Notion 每日 WADE 資料庫取得 9/15 完整 18 節、六檔名單與研究分數；再與當日 API 核對。</td></tr>
 <tr><td>公開盤後資料</td><td>已取得</td><td>直接查詢證交所 MI_INDEX、三大法人 BFI82U、櫃買中心當日彙總，核對指數、成交額、廣度及個股。</td></tr></tbody></table></div>
-<p>四來源齊備不等於資料零缺漏。TideFlow Grade B、XQ 時間與分類限制均列在文末。<a href="https://tideflow-production-b67b.up.railway.app/api/ai/intraday/2026-09-15">TideFlow 歷史快照</a>、<a href="https://thomash6687.github.io/hsien-market-report/daily-intraday/2026-09-15/#close">族群輪動完整分析</a>、<a href="https://app.notion.com/p/3dce3a6c4b40818a875bdd88f3316d5c">9/15 WADE 同步全文</a>。</p>
+<p>四來源齊備不等於資料零缺漏。TideFlow Grade B、XQ 時間與分類限制均列在文末。TideFlow 歷史快照、<a href="https://thomash6687.github.io/hsien-market-report/daily-intraday/2026-09-15/#close">族群輪動完整分析</a>、9/15 WADE 同步全文。</p>
 <h2>一、近 5 日結構</h2>
 <p><strong>五日一句話：市場由「短暫修復 → 修復失敗 → 急跌擴散 → 恐慌鈍化 → 補跌再起」，昨天的喘息沒有轉成跨日修復；今日均線廣度與新低再惡化，操作仍以防守為先。</strong></p>
 <p>五個交易日為 9/9、9/10、9/11、9/14、9/15。以下使用同一 TideFlow WADE 歷史指標；每日有效分母可能不同，百分點變化依各日原比率比較。</p>
@@ -21,7 +21,7 @@ article h2{margin-top:42px}article h3{margin-top:28px}.table-wrap{overflow-x:aut
 <tr><td>9/11</td><td>-1.61%／-2.40%</td><td>21.75%</td><td>27.40%</td><td>570／239</td><td>急跌與弱勢擴散，風險升級。</td></tr>
 <tr><td>9/14</td><td>-0.70%／-0.21%</td><td>34.48%</td><td>25.95%</td><td>520／208</td><td>重跌減少，但 MA20 續差，只是恐慌鈍化。</td></tr>
 <tr><td>9/15</td><td>-0.77%／-1.51%</td><td>22.47%</td><td>20.69%</td><td>642／262</td><td>補跌再起、新低超過 9/11，昨天止穩未延續。</td></tr></tbody></table></div>
-<p>從 9/9 至今日，MA20 以上比率下降 <strong>18.82 個百分點</strong>；20D 新低由 228 增至 642，60D 新低由 98 增至 262。昨天上漲比率回升的成果，今日已明顯退回。這個五日結構要求明日先驗證「破壞是否停止」，而非預設低點已完成。<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-09">9/9 原始盤後資料</a>、<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-10">9/10</a>、<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-11">9/11</a>、<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-14">9/14</a>、<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-15">9/15</a>。</p>
+<p>從 9/9 至今日，MA20 以上比率下降 <strong>18.82 個百分點</strong>；20D 新低由 228 增至 642，60D 新低由 98 增至 262。昨天上漲比率回升的成果，今日已明顯退回。這個五日結構要求明日先驗證「破壞是否停止」，而非預設低點已完成。9/9 原始盤後資料、9/10、9/11、9/14、9/15。</p>
 <h3>昨日驗證條件，今天實際發生什麼</h3>
 <div class="table-wrap"><table><thead><tr><th scope="col">昨日待驗證項</th><th scope="col">9/15 結果</th><th scope="col">日報處理</th></tr></thead><tbody><tr><td>重跌少於 50、跌停少於 5</td><td>48／3，達成；重跌仍比昨日 39 增加</td><td>承認尾部壓力緩衝，但不據此判多。</td></tr>
 <tr><td>MA20 止降、回到 30%</td><td>20.69%，再降 5.26 個百分點</td><td>修復未通過。</td></tr>
@@ -29,7 +29,7 @@ article h2{margin-top:42px}article h3{margin-top:28px}.table-wrap{overflow-x:aut
 <tr><td>第二梯隊至少一組 Holding</td><td>四組全 Fading</td><td>接棒仍失敗。</td></tr>
 <tr><td>天鈺／聯詠、順德、強茂、裕融續留</td><td>WADE 名單 0/5 續留，正式仍 0</td><td>昨日候選沒有名單第二拍。</td></tr>
 <tr><td>銀行延續、二極體／ASIC 修復</td><td>銀行金融 -0.98%、2/16 上漲；ASIC -3.22%、1/8</td><td>價格與廣度確認失敗。</td></tr></tbody></table></div>
-<p>名單退出不等於每檔下跌：本次行情核對中，天鈺仍 +0.28%，但聯詠 -2.70%、順德 -2.14%、強茂 -3.46%、裕融 -0.74%。因此精確結論是「候選續航與群聚未成立」，不是五檔全部下跌。<a href="https://app.notion.com/p/3dce3a6c4b40818a875bdd88f3316d5c">WADE 原文</a>、<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-15">當日行情</a>。</p>
+<p>名單退出不等於每檔下跌：本次行情核對中，天鈺仍 +0.28%，但聯詠 -2.70%、順德 -2.14%、強茂 -3.46%、裕融 -0.74%。因此精確結論是「候選續航與群聚未成立」，不是五檔全部下跌。WADE 原文、當日行情。</p>
 <h2>二、明日操作</h2>
 <p><strong>基本態度：🔴 防守，先控風險、再驗證修復；不把單日抗跌或末次差比轉正直接當成新主流。</strong></p>
 <p>研究 WADE -3 是既有風險級距的綜合判斷，不是 TideFlow 自動總分，也不是 Wade 本人評分；「賣方風控」不等同要求放空、清空所有持股或預測明日必跌。</p>
@@ -37,21 +37,21 @@ article h2{margin-top:42px}article h3{margin-top:28px}.table-wrap{overflow-x:aut
 <div class="table-wrap"><table><thead><tr><th scope="col">情境</th><th scope="col">可觀察條件</th><th scope="col">操作原則</th><th scope="col">失效或降級條件</th></tr></thead><tbody><tr><td>修復開始</td><td>加權守住 45,491.97、櫃買守住 388.73，逐步收復今日開盤 45,847.27／394.59；廣度同步改善</td><td>先檢查現有部位與候選量價，只研究有延續的方向；一根反彈不直接升級買方。</td><td>指數回升但新低不減、候選大戶／流動差比仍分歧。</td></tr>
 <tr><td>弱勢震盪</td><td>指數未破今日低點，卻無法收復開盤區；個股廣度偏弱</td><td>維持防守與低追價意願，避免依早盤排名頻繁換股。</td><td>午後再度擴大下跌，原抗跌候選失守。</td></tr>
 <tr><td>破壞延續</td><td>45,491.97／388.73 失守，且新低或領頭補跌擴大</td><td>優先檢查原有風險上限與退出條件；不把跌深當成便宜的充分理由。</td><td>若迅速收復失守點且廣度改善，重新評估，不只看單次跌破。</td></tr></tbody></table></div>
-<p>以上價位是當日高低／開盤所形成的研究參考，不是保證有效的支撐壓力。加權上方另看前日收盤 <strong>45,862.52</strong> 與今日高點 <strong>46,009.85</strong>；櫃買另看前日 <strong>394.67</strong>、今日高點 <strong>398.02</strong>。沒有另造未查證的更低支撐。<a href="https://tideflow-production-b67b.up.railway.app/api/ai/intraday/2026-09-15">五時點與當日區間</a>。</p>
+<p>以上價位是當日高低／開盤所形成的研究參考，不是保證有效的支撐壓力。加權上方另看前日收盤 <strong>45,862.52</strong> 與今日高點 <strong>46,009.85</strong>；櫃買另看前日 <strong>394.67</strong>、今日高點 <strong>398.02</strong>。沒有另造未查證的更低支撐。五時點與當日區間。</p>
 <h3>從風控走向修復，至少需哪些證據</h3>
 <ul><li>MA20 以上先由 20.69% 止降、回 25%，再看 30%；跌破 20% 則提高警戒。</li>
 <li>20D／60D 新低先低於 520／208，再看 400／180；不能只看加權翻紅。</li>
 <li>上漲比率回 30% 以上、下跌低於 60%；重跌維持 50 家以下且減少，跌停低於 5。</li>
 <li>Leader 下跌比率由 87.18% 降至 60% 以下、觸發組數減少；Weakness 至少兩項顯著改善、Second-tier 至少一組 Holding。</li>
 <li>電信至少 2/3 原成員續留、企業 IT 同方向群聚延續，並有正式觀察脫離 0。</li></ul>
-<p>這些是原 WADE 的次日研究門檻，不是機械打分或買進指令；部分達成僅代表改善，須合併判斷。<a href="https://app.notion.com/p/3dce3a6c4b40818a875bdd88f3316d5c">9/15 WADE 次日驗證</a>。</p>
+<p>這些是原 WADE 的次日研究門檻，不是機械打分或買進指令；部分達成僅代表改善，須合併判斷。9/15 WADE 次日驗證。</p>
 <h2>三、明日注意族群／操作事項</h2>
 <h3>WADE 新名單：電信與企業 IT 是第一拍</h3>
 <p>正式觀察 <strong>0 檔，連續第 9 個交易日為 0</strong>；稍微觀察 6 檔，較昨日 5 檔增加 20%，但全部替換，機會品質沒有正式升級。</p>
 <div class="table-wrap"><table><thead><tr><th scope="col">方向</th><th scope="col">今日稍微觀察</th><th scope="col">本次行情核對</th><th scope="col">明日條件</th></tr></thead><tbody><tr><td>電信營運</td><td>2412 中華電、3045 台灣大、4904 遠傳</td><td>143.5／+0.70%；124／+2.06%；106.5／+0.47%</td><td>至少 2/3 續留，最好 1 檔升正式，並確認自身量價。</td></tr>
 <tr><td>企業 IT 通路／整合</td><td>3029 零壹、2480 敦陽科</td><td>118.5／+1.72%；161／+2.22%</td><td>維持兩檔同方向群聚或明確同業補位，不外推整體資安。</td></tr>
 <tr><td>影像／聲學／人機介面</td><td>4915 致伸</td><td>65.6／+1.55%</td><td>先驗證單股跨日，尚無同業擴散證據。</td></tr></tbody></table></div>
-<p>行情為本輪補查，原 WADE 附件未提供每檔報酬；六檔當日確實收紅，但沒有完整均線、突破與多日量能證據，因此不自行升為正式觀察。電信與企業 IT 各列 C 級研究候選；致伸維持單股線索。零壹 9/11 出現、9/14 中斷，今日重新第一拍，不能算連續第二拍。<a href="https://app.notion.com/p/3dce3a6c4b40818a875bdd88f3316d5c">WADE 名單與分級</a>、<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-15">盤後個股行情</a>。</p>
+<p>行情為本輪補查，原 WADE 附件未提供每檔報酬；六檔當日確實收紅，但沒有完整均線、突破與多日量能證據，因此不自行升為正式觀察。電信與企業 IT 各列 C 級研究候選；致伸維持單股線索。零壹 9/11 出現、9/14 中斷，今日重新第一拍，不能算連續第二拍。WADE 名單與分級、盤後個股行情。</p>
 <h3>盤中相對強勢：必須保留分類差異</h3>
 <div class="table-wrap"><table><thead><tr><th scope="col">方向</th><th scope="col">收盤分析實際訊號</th><th scope="col">下一交易日重點</th></tr></thead><tbody><tr><td>安全監控</td><td>XQ 主題 +2.03%、大戶 +0.58、流動 -10.76；系統指標 +2.67%、大戶 +7.34、流動 +19.82</td><td>主題與指標支持能否一致；不能把資安當同一分類。</td></tr>
 <tr><td>石英元件</td><td>XQ 主題 +2.11%、大戶 +15.92、流動 -3.80</td><td>流動差比回正與價格延續；TideFlow 石英頻率控制卻 -0.14%、3/6 上漲，不能稱全族群強勢。</td></tr>
@@ -72,7 +72,7 @@ article h2{margin-top:42px}article h3{margin-top:28px}.table-wrap{overflow-x:aut
 <tr><td>上市上漲／下跌</td><td>533／487</td><td>393／632</td><td>307／730</td><td>232／809</td><td>211／796</td></tr>
 <tr><td>上櫃上漲／下跌</td><td>477／351</td><td>387／432</td><td>313／525</td><td>262／569</td><td>233／590</td></tr>
 <tr><td>快照全市場量比</td><td>3.04</td><td>1.25</td><td>0.91</td><td>0.72</td><td>0.78</td></tr></tbody></table></div>
-<p>09:15 至 10:30 加權只回落 10.86 點，但上市上漲家數已少 140 家；先失去的是個股參與。收盤加權距日低僅 <strong>19.52 點</strong>，櫃買收在日低 <strong>388.73</strong>。早盤修復逐步消退，午後未止穩。快照量比是相對近五日每分鐘均額，不是較昨日全日成交額增減。<a href="https://tideflow-production-b67b.up.railway.app/api/ai/intraday/2026-09-15">歷史快照與欄位</a>。</p>
+<p>09:15 至 10:30 加權只回落 10.86 點，但上市上漲家數已少 140 家；先失去的是個股參與。收盤加權距日低僅 <strong>19.52 點</strong>，櫃買收在日低 <strong>388.73</strong>。早盤修復逐步消退，午後未止穩。快照量比是相對近五日每分鐘均額，不是較昨日全日成交額增減。歷史快照與欄位。</p>
 <p>官方確認加權收 <strong>45,511.49，-351.03 點、-0.77%</strong>；櫃買收 <strong>388.73，-5.94 點</strong>，按前日 394.67 計算約 <strong>-1.51%</strong>。電子類 -0.65%、金融保險 -1.10%，資訊服務 +0.98%、生技醫療 +0.32%；這支持「局部服務與防禦方向相對抗跌」，但不代表全市場轉多。<a href="https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20260915&amp;type=ALLBUT0999&amp;response=json">證交所當日統計</a>、<a href="https://www.tpex.org.tw/www/zh-tw/afterTrading/highlight?date=2026/09/15&amp;response=json">櫃買官方彙總</a>。</p>
 <h3>法人：外資賣超擴大，投信轉賣</h3>
 <div class="table-wrap"><table><thead><tr><th scope="col">集中市場法人</th><th scope="col">9/15 買賣超</th></tr></thead><tbody><tr><td>外資及陸資，不含外資自營商</td><td>-626.99 億元</td></tr>
@@ -85,14 +85,14 @@ article h2{margin-top:42px}article h3{margin-top:28px}.table-wrap{overflow-x:aut
 <div class="table-wrap"><table><thead><tr><th scope="col">資料層</th><th scope="col">上市成交額</th><th scope="col">上櫃成交額</th><th scope="col">使用方式</th></tr></thead><tbody><tr><td>13:40 歷史快照</td><td>6,034.54 億</td><td>1,756.42 億</td><td>當時快照，保留盤中觀察脈絡。</td></tr>
 <tr><td>本次直接查詢官方盤後表</td><td>一般股票 5,740.03 億；全商品 6,347.07 億</td><td>官方彙總 1,761.74 億</td><td>各依官方統計範圍，不能互換。</td></tr>
 <tr><td>WADE 盤後比較口徑</td><td>5,740.03 億</td><td>1,754.05 億</td><td>與前日同系統比較，保留與官方彙總差異。</td></tr></tbody></table></div>
-<p>WADE 合計 <strong>7,494.08 億</strong>，較昨日 7,689.23 億減少 <strong>2.54%</strong>；其中加權 -4.50%，櫃買 +4.50%。所以總量略縮，不能掩蓋櫃買量增下跌。盤後 API 的一般 market.index.otc_turnover 又為 1,699.60 億，不能拿來取代同包 wade.market.otc 的 1,754.05 億；本版比較明確使用後者，官方彙總另列。<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-15">TideFlow 盤後資料</a>、<a href="https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20260915&amp;type=ALLBUT0999&amp;response=json">官方成交統計</a>、<a href="https://www.tpex.org.tw/www/zh-tw/afterTrading/highlight?date=2026/09/15&amp;response=json">櫃買統計範圍</a>。</p>
+<p>WADE 合計 <strong>7,494.08 億</strong>，較昨日 7,689.23 億減少 <strong>2.54%</strong>；其中加權 -4.50%，櫃買 +4.50%。所以總量略縮，不能掩蓋櫃買量增下跌。盤後 API 的一般 market.index.otc_turnover 又為 1,699.60 億，不能拿來取代同包 wade.market.otc 的 1,754.05 億；本版比較明確使用後者，官方彙總另列。TideFlow 盤後資料、<a href="https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20260915&amp;type=ALLBUT0999&amp;response=json">官方成交統計</a>、<a href="https://www.tpex.org.tw/www/zh-tw/afterTrading/highlight?date=2026/09/15&amp;response=json">櫃買統計範圍</a>。</p>
 <p>官方股票上漲／下跌為上市 <strong>207／790</strong>、上櫃 <strong>229／555</strong>；快照為 211／796、233／590；WADE 有效範圍合計 <strong>437／1,349</strong>。資料時間、範圍與有效分母不同，不拼成同一組廣度。</p>
 <h3>三大訊號與風險內容</h3>
 <div class="table-wrap"><table><thead><tr><th scope="col">訊號</th><th scope="col">當日結果</th><th scope="col">與昨日差異</th></tr></thead><tbody><tr><td>Leader Selloff</td><td>clear_selloff，High；39 檔監控下跌 87.18%，中位報酬 -1.40%，2/3 組觸發</td><td>昨日 no_selloff、48.72%、0 組；補跌緩衝消失。</td></tr>
 <tr><td>Second-tier Rotation</td><td>failed，High；0 Expanding、0 Holding、4 Fading</td><td>四組全退潮延續第 4 個交易日。</td></tr>
 <tr><td>Weakness Breadth</td><td>expanding，High；3 項惡化、0 項顯著改善</td><td>新低與均線失守再擴大；跌停惡化旗標已解除，但不足以改判收斂。</td></tr></tbody></table></div>
 <p>20D／60D 新低 <strong>642／262</strong>，新高僅 <strong>60／23</strong>，新低分別是新高 <strong>10.70／11.39 倍</strong>。MA20 以上僅 <strong>398 家、20.69%</strong>，以下 <strong>1,523 家、79.16%</strong>。跌停 9 → 3 是改善，但重跌 39 → 48、普遍失守加重，所以風險不只在跌停數。</p>
-<p>Weakness 的跌超 5% 比率低於五日平均 7.07%，API 卻標示未達顯著變化，不能擅自算成一項改善。Leader 只用於合併補跌監控，不把固定監控產業強行列為今日主流。<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-15">三大訊號與計算欄位</a>。</p>
+<p>Weakness 的跌超 5% 比率低於五日平均 7.07%，API 卻標示未達顯著變化，不能擅自算成一項改善。Leader 只用於合併補跌監控，不把固定監控產業強行列為今日主流。三大訊號與計算欄位。</p>
 <h2>五、今日族群狀況</h2>
 <h3>同一 TideFlow 分類的五時點變化</h3>
 <p>表內為平均漲跌，最後欄附收盤上漲家數／成員數。不同族群可能共享成分股，不能加總家數或資金。</p>
@@ -106,14 +106,14 @@ article h2{margin-top:42px}article h3{margin-top:28px}.table-wrap{overflow-x:aut
 <tr><td>HBM 高頻寬記憶體</td><td>+0.35%</td><td>-0.34%</td><td>-0.44%</td><td>-0.66%</td><td>-1.08%／3/7</td></tr>
 <tr><td>AI 先進封裝</td><td>+0.71%</td><td>+0.37%</td><td>+0.31%</td><td>-0.24%</td><td>-0.89%／3/10</td></tr>
 <tr><td>生技醫療</td><td>-0.02%</td><td>-0.13%</td><td>-0.19%</td><td>-0.23%</td><td>-0.24%／59/156</td></tr></tbody></table></div>
-<p>本輪補齊原圖片分析未見的矽晶圓收盤：<strong>+0.18%、3/6</strong>，由上午 +3.67%、6/6 明顯退步。銀行亦確認失去昨日延續。這兩項只能補上 TideFlow 分類，不冒充缺失的 XQ 收盤欄位。<a href="https://tideflow-production-b67b.up.railway.app/api/ai/intraday/2026-09-15">五時點原始來源</a>。</p>
+<p>本輪補齊原圖片分析未見的矽晶圓收盤：<strong>+0.18%、3/6</strong>，由上午 +3.67%、6/6 明顯退步。銀行亦確認失去昨日延續。這兩項只能補上 TideFlow 分類，不冒充缺失的 XQ 收盤欄位。五時點原始來源。</p>
 <h3>四來源交叉後，哪些判斷需要收斂</h3>
 <ol><li><strong>石英不能整組稱主流。</strong> XQ 石英元件主題 +2.11%，TideFlow 石英頻率控制 -0.14%、3/6；分類不同，保留 XQ 相對強勢候選，但撤回全面擴散的推論。</li>
 <li><strong>生技只能局部候選。</strong> XQ 生物科技指標雙正，官方生技類 +0.32%，但 TideFlow 快照生技醫療 -0.24%、59/156，盤後重算為 -0.12%、59/153。分母也改變，不能把三者當同一指標前後改善。</li>
 <li><strong>電信三檔收紅不代表全通訊。</strong> 官方通信網路類仍 -0.34%；WADE 電信營運小群聚可追蹤，不外推光通訊或設備鏈。</li>
 <li><strong>企業 IT 個股支持不能替資安補缺口。</strong> 零壹、敦陽科收紅且同入名單，但 TideFlow 資安防護 -1.19%、3/12；XQ 資安指標亦雙負。</li>
 <li><strong>法人估算不能取代流動差比。</strong> TideFlow 石英頻率控制 n1 +49.06 億、矽晶圓 +20.52 億，仍可能價格回吐；n1 是成分股法人淨股數乘收盤價估算，不是逐筆實際流入，也不是 XQ 大戶差比。</li></ol>
-<p>盤後估算另見銀行 -19.07 億、ASIC -64.49 億、CPU -162.94 億、HBM -182.96 億。只用來補充方向，不加總成市場淨流出，不與不同分類的 XQ 差比互換。<a href="https://tideflow-production-b67b.up.railway.app/api/ai/date/2026-09-15">盤後族群重算資料</a>。</p>
+<p>盤後估算另見銀行 -19.07 億、ASIC -64.49 億、CPU -162.94 億、HBM -182.96 億。只用來補充方向，不加總成市場淨流出，不與不同分類的 XQ 差比互換。盤後族群重算資料。</p>
 <h2>資料品質與本版邊界</h2>
 <ul><li>五時點實際為 09:15:01、10:30:01、11:30:01、13:00:01、13:40:01；前四點均 exact，Close 為收盤快照。盤中有缺少的五分鐘區間，5/5 只指指定關鍵點齊備，不代表全日逐筆完整。</li>
 <li>Close 的櫃買物件仍帶 provisional=true；最終 388.73 與 -5.94 另以櫃買官方彙總核對。盤後 market.index.otc_close 為 null，但 wade.market.otc 有官方收盤值，未把 null 填成 0。</li>
@@ -123,4 +123,4 @@ article h2{margin-top:42px}article h3{margin-top:28px}.table-wrap{overflow-x:aut
 <li>本版新增個股行情、銀行與矽晶圓收盤資料，均標明出自本輪盤後／快照查詢；不宣稱原 WADE 或原圖片已含這些欄位。</li>
 <li>名單、族群研究評級、WADE -3 與次日條件均為研究整合；未查證的公司催化、降評、總經事件不補寫成原因。</li></ul>
 <p><strong>今日判斷：9/15 是恐慌鈍化後再次失敗，領頭補跌與均線失守加劇。電信、企業 IT 是新名單第一拍；石英、安全監控、隱形眼鏡與生技仍各有確認缺口。明日先看新低能否收斂、候選能否跨日，再談提高進攻程度。</strong></p>
-<p>本報告供研究與資訊參考，不構成獲利保證或個人化投資建議。</p></article><nav><a href="../../#reports">← 返回首頁日報列表</a> · <a href="../../daily-intraday/2026-09-15/#close">同日族群輪動收盤分析</a></nav></main><footer><div class="container">HSIEN · MARKET JOURNAL</div></footer></body></html>
+<p>本報告供研究與資訊參考，不構成獲利保證或個人化投資建議。</p><section class="source-access-note" aria-labelledby="source-access-title"><h2 id="source-access-title">資料存取與來源保護</h2><p>本站只發布整理後的分析結果。TideFlow 原始 API 由後端驗證存取權，必須通過私人憑證才能讀取；憑證只存放在伺服器端環境變數，不會寫入 HTML、網址或瀏覽器程式。Notion 原始頁面不提供公開連結。</p></section></article><nav><a href="../../#reports">← 返回首頁日報列表</a> · <a href="../../daily-intraday/2026-09-15/#close">同日族群輪動收盤分析</a></nav></main><footer><div class="container">HSIEN · MARKET JOURNAL</div></footer></body></html>
