@@ -25,6 +25,7 @@
 </main>
 <template id="latest-intraday-20261002"><article style="margin-top:24px"><p class="muted">2026 / 10 / 02 · 族群輪動收盤完整分析</p><h3><a href="daily-intraday/2026-10-02/#close">櫃買領漲、多主線輪動：PCB結構最完整</a></h3><p>櫃買與中小型電子主導；PCB結構最完整、砷化鎵價格領先、CPO尾盤再加速，被動元件轉為高檔換手。完整保留四時點、主線評級、候選驗證及隔日關鍵位置。</p><a href="daily-intraday/2026-10-02/#close">閱讀 10/2 族群輪動收盤分析 →</a></article></template>
 <template id="latest-intraday-20261005"><article style="margin-top:24px"><p class="muted">2026 / 10 / 05 · 族群輪動收盤完整分析</p><h3><a href="daily-intraday/2026-10-05/#close">指數強、廣度惡化：PCB與AI核心供應鏈集中領漲</a></h3><p>PCB／HDI／銅箔與AI先進封裝成為核心主線；CPU、HBM持續獲得資金，MOSFET、天線與半導體設備列為新候選。完整保留三階段輪動、收盤分級與隔日策略。</p><a href="daily-intraday/2026-10-05/#close">閱讀 10/5 族群輪動收盤分析 →</a></article></template>
+<template id="latest-intraday-20261006"><article style="margin-top:24px"><p class="muted">2026 / 10 / 06 · 族群輪動收盤完整分析</p><h3><a href="daily-intraday/2026-10-06/#close">主線高檔整理：化工材料領強，電子支線分化</a></h3><p>化工材料守住全天強勢；HDI完成修復，IC封測／測試、半導體材料與MEMS形成電子支線。完整保留四時點、25節分析、正式分級與10/7操作方向。</p><a href="daily-intraday/2026-10-06/#close">閱讀 10/6 族群輪動收盤分析 →</a></article></template>
 <footer><div class="container"><p>HSIEN DAILY MARKET CLOSE REPORT</p><p>本站內容供研究與資訊參考，不構成投資建議。市場資料請以各來源正式公告為準。</p><a href="https://github.com/thomasH6687/hsien-market-report">GitHub 專案</a></div></footer>
 <script>
 (function () {
@@ -40,6 +41,14 @@
   var template = document.getElementById('latest-intraday-20261005');
   var firstEntry = section && Array.from(section.children).find(function (node) { return node.tagName === 'ARTICLE'; });
   if (section && template && firstEntry && !section.querySelector('a[href="daily-intraday/2026-10-05/#close"]')) {
+    section.insertBefore(template.content.cloneNode(true), firstEntry);
+  }
+})();
+(function () {
+  var section = document.getElementById('intraday');
+  var template = document.getElementById('latest-intraday-20261006');
+  var firstEntry = section && Array.from(section.children).find(function (node) { return node.tagName === 'ARTICLE'; });
+  if (section && template && firstEntry && !section.querySelector('a[href="daily-intraday/2026-10-06/#close"]')) {
     section.insertBefore(template.content.cloneNode(true), firstEntry);
   }
 })();
