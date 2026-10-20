@@ -31,6 +31,7 @@
 <template id="latest-intraday-20261013"><article style="margin-top:24px"><p class="muted">2026 / 10 / 13 · 族群輪動收盤完整分析 · 下一交易日 10/14</p><h3><a href="daily-intraday/2026-10-13/#close">輪動墊高中斷：高Beta電子重置、防守型輪動接棒</a></h3><p>加權與櫃買廣度收盤仍極弱，AI、記憶體、PCB、封裝與CPO同步受損；光學、塑化、貨櫃、金融及電信逆勢。完整保留三時點、21節分析、正式分級與10/14修復條件。</p><a href="daily-intraday/2026-10-13/#close">閱讀 10/13 族群輪動收盤分析 →</a></article></template>
 <template id="latest-intraday-20261014"><article style="margin-top:24px"><p class="muted">2026 / 10 / 14 · 族群輪動收盤完整分析 · 下一交易日 10/15</p><h3><a href="daily-intraday/2026-10-14/#close">Re-risk Day：PCB與半導體廣泛修復、石化維持領先</a></h3><p>市場廣度全天維持正值；PCB、被動元件、CPO、晶圓代工與IC鏈同步修復，石化／塑膠及玻纖布保持Persistence。完整保留四時點、24節分析、正式分級與10/15操作條件。</p><a href="daily-intraday/2026-10-14/#close">閱讀 10/14 族群輪動收盤分析 →</a></article></template>
 <template id="latest-intraday-20261019"><article style="margin-top:24px"><p class="muted">2026 / 10 / 19 · 族群輪動收盤完整分析 · 下一交易日 10/20</p><h3><a href="daily-intraday/2026-10-19/#close">Index Repair ≠ Market Repair：廣泛去風險再現</a></h3><p>指數自低點拉回，但加權與櫃買廣度仍大幅為負；玻纖布維持相對強勢、USB IC列入候選，高Beta電子與被動元件再次轉弱。完整保留收盤結構、正式分級與10/20操作條件。</p><a href="daily-intraday/2026-10-19/#close">閱讀 10/19 族群輪動收盤分析 →</a></article></template>
+<template id="latest-intraday-20261020"><article style="margin-top:24px"><p class="muted">2026 / 10 / 20 · 族群輪動收盤完整分析 · 下一交易日 10/21</p><h3><a href="daily-intraday/2026-10-20/#close">Failed Re-risk Day：早盤修復、午盤轉弱、收盤失敗</a></h3><p>早盤廣度明顯翻正，午盤後快速失敗；AI核心、PCB、CPO與先進封裝收盤全面轉弱。EMS與部分硬體鏈成為少數穿越全天的相對強勢方向。</p><a href="daily-intraday/2026-10-20/#close">閱讀 10/20 族群輪動收盤分析 →</a></article></template>
 <footer><div class="container"><p>HSIEN DAILY MARKET CLOSE REPORT</p><p>本站內容供研究與資訊參考，不構成投資建議。市場資料請以各來源正式公告為準。</p><a href="https://github.com/thomasH6687/hsien-market-report">GitHub 專案</a></div></footer>
 <script>
 (function () {
@@ -94,6 +95,14 @@
   var template = document.getElementById('latest-intraday-20261019');
   var firstEntry = section && Array.from(section.children).find(function (node) { return node.tagName === 'ARTICLE'; });
   if (section && template && firstEntry && !section.querySelector('a[href="daily-intraday/2026-10-19/#close"]')) {
+    section.insertBefore(template.content.cloneNode(true), firstEntry);
+  }
+})();
+(function () {
+  var section = document.getElementById('intraday');
+  var template = document.getElementById('latest-intraday-20261020');
+  var firstEntry = section && Array.from(section.children).find(function (node) { return node.tagName === 'ARTICLE'; });
+  if (section && template && firstEntry && !section.querySelector('a[href="daily-intraday/2026-10-20/#close"]')) {
     section.insertBefore(template.content.cloneNode(true), firstEntry);
   }
 })();
